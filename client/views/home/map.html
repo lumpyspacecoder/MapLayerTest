@@ -1,0 +1,16 @@
+<template name="map">
+    <div id="map">
+        <div id="map-canvas"></div>
+        <div id="warnings_panel"></div>
+          <div id="panel">
+    
+    <b>Destination: </b>
+
+     <input type="text" id="end">
+    
+    <button class="routeSearch" onclick="gmaps.calcRoute();">Let's go!</button> 
+    <button  id="location" onclick="gmaps.findlocation();">Where am I?</button>
+    </div> 
+    </div>
+    
+</template>
